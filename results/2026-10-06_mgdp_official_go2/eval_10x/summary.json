@@ -1,0 +1,306 @@
+{
+  "info": {
+    "num_envs": 1000,
+    "repeats": 10,
+    "speed_mps": 0.7,
+    "seed": 1,
+    "steps": 1249,
+    "sim_seconds": 25.0,
+    "wall_seconds": 38.5,
+    "ms_per_step": 30.81,
+    "torch_peak_mem_gb": 0.61,
+    "pass_rule": "成功 >= 7/10；成功 = 走到 x >= 9.0 m 且未被重置"
+  },
+  "summary": {
+    "single-gap": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "step-stone": {
+      "success_per_level": [
+        7,
+        9,
+        8,
+        9,
+        8,
+        8,
+        10,
+        10,
+        9,
+        0
+      ],
+      "reached_5m_per_level": [
+        7,
+        9,
+        10,
+        10,
+        8,
+        8,
+        10,
+        10,
+        9,
+        0
+      ],
+      "highest_passed": 8,
+      "consecutive_from_0": 8,
+      "highest_passed_5m": 8
+    },
+    "Stones-2Rows": {
+      "success_per_level": [
+        6,
+        9,
+        10,
+        10,
+        10,
+        10,
+        10,
+        9,
+        10,
+        9
+      ],
+      "reached_5m_per_level": [
+        8,
+        9,
+        10,
+        10,
+        10,
+        10,
+        10,
+        9,
+        10,
+        9
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": null,
+      "highest_passed_5m": 9
+    },
+    "stones-1Rows": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "single-bridge": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "air-Beams": {
+      "success_per_level": [
+        10,
+        10,
+        8,
+        8,
+        10,
+        10,
+        9,
+        10,
+        9,
+        6
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        9,
+        10,
+        10,
+        10,
+        9,
+        10,
+        10,
+        8
+      ],
+      "highest_passed": 8,
+      "consecutive_from_0": 8,
+      "highest_passed_5m": 9
+    },
+    "air_stone": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "hurdle": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        9,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "ramp": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "highest_passed": 9,
+      "consecutive_from_0": 9,
+      "highest_passed_5m": 9
+    },
+    "corridor": {
+      "success_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        0,
+        0
+      ],
+      "reached_5m_per_level": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        0,
+        0,
+        0
+      ],
+      "highest_passed": 6,
+      "consecutive_from_0": 6,
+      "highest_passed_5m": 6
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# Isaac Lab 內建 Go2 模型（自行訓練 model_1499.pt）在 MGDP 場地的結果
+# 只測第 0 級與第 9 級；來源：2026-10-06 執行 course_eval.py --course mgdp 的輸出
+# 當時 JSON 存檔因 bool_ 錯誤中斷（已在本 repo 的 course_eval.py 修正），以下為終端機輸出
+======================================================================
+ 機器人：go2    任務：Isaac-Velocity-Rough-Unitree-Go2-Play-v0
+======================================================================
+
+[MGDP 地形]
+  FAIL  single-gap 第0級 {'progress_m': 1.37, 'reached_5m': False, 'time_s': 5.1, 'note': '跌倒 / 掉落'}
+  FAIL  step-stone 第0級 {'progress_m': 1.13, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  Stones-2Rows 第0級 {'progress_m': 1.5, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  stones-1Rows 第0級 {'progress_m': 1.37, 'reached_5m': False, 'time_s': 3.08, 'note': '跌倒 / 掉落'}
+  FAIL  single-bridge 第0級 {'progress_m': 1.35, 'reached_5m': False, 'time_s': 4.34, 'note': '跌倒 / 掉落'}
+  FAIL  air-Beams 第0級 {'progress_m': 0.97, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  air_stone 第0級 {'progress_m': 2.58, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  hurdle 第0級   {'progress_m': 2.06, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  ramp 第0級     {'progress_m': 4.04, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  corridor 第0級 {'progress_m': 3.32, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  single-gap 第9級 {'progress_m': 1.09, 'reached_5m': False, 'time_s': 2.12, 'note': '跌倒 / 掉落'}
+  FAIL  step-stone 第9級 {'progress_m': 0.94, 'reached_5m': False, 'time_s': 4.88, 'note': '跌倒 / 掉落'}
+  FAIL  Stones-2Rows 第9級 {'progress_m': 1.16, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  stones-1Rows 第9級 {'progress_m': 1.19, 'reached_5m': False, 'time_s': 1.92, 'note': '跌倒 / 掉落'}
+  FAIL  single-bridge 第9級 {'progress_m': 1.36, 'reached_5m': False, 'time_s': 3.24, 'note': '跌倒 / 掉落'}
+  FAIL  air-Beams 第9級 {'progress_m': 0.67, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  air_stone 第9級 {'progress_m': 0.51, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  hurdle 第9級   {'progress_m': 1.67, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+  FAIL  ramp 第9級     {'progress_m': 1.18, 'reached_5m': False, 'time_s': 3.58, 'note': '跌倒 / 掉落'}
+  FAIL  corridor 第9級 {'progress_m': 1.66, 'reached_5m': False, 'time_s': 6.02, 'note': '卡住 / 逾時'}
+======================================================================
+
+
+[MGDP 地形摘要]
+  地形                最高通過等級   連續通過到   通過的等級
+  single-gap             -         -   []
+  step-stone             -         -   []
+  Stones-2Rows           -         -   []
+  stones-1Rows           -         -   []
+  single-bridge          -         -   []
+  air-Beams              -         -   []
+  air_stone              -         -   []
+  hurdle                 -         -   []
+  ramp                   -         -   []
+  corridor               -         -   []

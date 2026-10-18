@@ -1,0 +1,14 @@
+# 影片、模型、壓縮檔（太大，不放 GitHub）
+*.mp4
+*.pt
+*.onnx
+*.tar.gz
+*.zip
+
+# 執行紀錄與暫存
+*.log
+logs/
+outputs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
